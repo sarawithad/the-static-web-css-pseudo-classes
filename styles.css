@@ -1,0 +1,14 @@
+ul li{
+	list-style: none;
+	display: inline;
+}
+
+span {
+	display: block;
+	border: 1px dotted red;
+	margin: 25px;
+}
+
+.n-child :nth-of-type(even) {
+	border: 1px dashed darkblue;
+}
